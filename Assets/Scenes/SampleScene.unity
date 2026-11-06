@@ -1190,7 +1190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1672,6 +1672,7 @@ GameObject:
   - component: {fileID: 1941381284}
   - component: {fileID: 1941381283}
   - component: {fileID: 1941381282}
+  - component: {fileID: 1941381286}
   m_Layer: 0
   m_Name: Kist
   m_TagString: Untagged
@@ -1768,6 +1769,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 30, z: 0}
+--- !u!114 &1941381286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941381281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f97e45487ea6745bcf66a6d2378b3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snelheid: 90
+  draaien: 1
+  hoogte: 1
 --- !u!1 &1998130956
 GameObject:
   m_ObjectHideFlags: 0
